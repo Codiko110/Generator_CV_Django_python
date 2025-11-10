@@ -2,9 +2,8 @@ pip install python-decouple
 pip install dj-database-url
 
 DATABASES = {
-    'default': {
+    'default':
         dj_database_url.parse(config('DATABASE_URL'))
-    }
 }
 
 pip install gunicorn

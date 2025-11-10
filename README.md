@@ -18,7 +18,7 @@ Ce projet est une application web développée avec Django permettant aux utilis
 ### Étapes d'installation
 1. **Cloner le projet**
    ```bash
-   git clone https://github.com/votre-utilisateur/nom-du-repo.git
+   git clone https://github.com/Codiko110/Generator_CV_Django_python.git
    ```
 2. **Créer un environnement virtuel et l'activer** (optionnel mais recommandé)
    ```bash

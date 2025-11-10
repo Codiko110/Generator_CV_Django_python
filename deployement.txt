@@ -1,0 +1,11 @@
+pip install python-decouple
+pip install dj-database-url
+
+DATABASES = {
+    'default': {
+        dj_database_url.parse(config('DATABASE_URL'))
+    }
+}
+
+pip install gunicorn
+pip install psycopg2
